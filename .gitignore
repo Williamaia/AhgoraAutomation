@@ -1,9 +1,42 @@
-node_modules/
+# Sessao e credenciais
 auth/
-*.log
+*.env
 .env
 .env.*
-__pycache__/
-*.py[cod]
+
+# Ambiente Python
 .venv/
 venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Playwright
+playwright-report/
+test-results/
+*.png
+*.webm
+*.zip
+
+# Scripts temporarios de inspecao / gravacao
+scripts/debug_flow.py
+scripts/inspect_*.py
+scripts/recorded.py
+
+# Node (caso sobre residual)
+node_modules/
+
+# IDE / OS
+.idea/
+.vscode/
+.cursor/
+*.log
+Thumbs.db
+Desktop.ini
+.DS_Store
